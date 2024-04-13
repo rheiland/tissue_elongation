@@ -1,4 +1,9 @@
-# Update project to use PhysiCell 1.13.1
+# tissue_elongation
+
+Assisting with this project:
+
+Cell density couples tissue mechanics to control the elongation speed of the body axis.
+ Changqing Lu,  Joana M. N. Vidigueira,  Christopher Chan Jin Jie,  Alicja Maksymiuk,  Fengzhu Xiong, https://doi.org/10.1101/2023.12.31.573670
 
 This is an update to the original project. In particular, it:
 * uses PhysiCell 1.13.1 (the original project used 1.7.1)
