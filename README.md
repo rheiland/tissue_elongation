@@ -13,7 +13,15 @@ This is an update to the original project. In particular, it:
 * uses `config/body_rules.csv` to specify cell rules that prevent unrealistic overcrowding
 * many of the original User Parameters are no longer used
 
-We need to have a discussion about the original vs. this updated version, in terms of what is wanted in the model.
+We are having ongoing discussions about the original model vs. this updated version.
+
+To get started, one would:
+* clone or download a release of this repo
+* if you don't have an appropriate g++ compiler installed for PhysiCell, rf. https://github.com/physicell-training/ws2023/blob/main/agenda.md
+* run `make` in the root directory to build the `bodyaxis` executable model
+* get the latest release of PhysiCell Studio (rf. https://github.com/PhysiCell-Tools/Studio-Guide) and run it with this model, e.g.,
+  
+  `python studio/bin/studio.py -c config/body_axis.xml -e bodyaxis`
 
 <img src="./screenshots/plot_svg_t0.png" width="50%">
 
