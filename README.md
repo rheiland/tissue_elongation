@@ -25,6 +25,8 @@ To get started, one would:
 
 <img src="./screenshots/plot_svg_t0.png" width="50%">
 
+## body_axis0.xml -  cell proliferation and death; default(?) mechanics; no chemotaxis; rules to prevent overcrowding
+
 <img src="./screenshots/plot_svg_1d12hr.png" width="70%">
 
 <img src="./screenshots/populations.png" width="50%">
@@ -44,7 +46,11 @@ To get started, one would:
 <img src="./screenshots/rules.png" width="70%">
 <img src="./screenshots/run.png" width="70%">
 
+<hr>
 
+## body_axis1.xml - NC chemotax to a signal being emitted from right boundary (xmax)
+
+<img src="./screenshots/NC_chemotaxis.png" width="70%">
 
 
 
